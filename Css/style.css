@@ -1,0 +1,390 @@
+/* Header section */
+.logo {
+    width: 60px;
+    height: 60px;
+  
+} 
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    background-color: darkslateblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            padding: 20px;
+} 
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.nav-li {
+  margin: 5px;
+  padding-right: 40px;
+  color: azure; 
+  text-transform: uppercase;
+} 
+.burger-bar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+/* დამალული ბურგერ ბარი როგორ მინდა რომ გამოჩნდეს */
+/* .header {
+    flex-direction: column;
+}
+.nav-ul {
+    flex-direction: column;
+}
+.nav-li {
+    flex-direction: column;
+}
+.navigation.active {
+    display: block;
+} */
+
+
+
+/* background image */
+.banner {
+    background-image: url(../Images/school.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+          
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 300px;
+    margin-left: 20px;
+    font-style: oblique;
+}
+/* Section one */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.block1 {
+    width: 350px;
+    height: 300px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px darkslateblue;
+    
+}
+
+.block1 p {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.title {
+    max-width: 712px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: darkslateblue;
+    font-style: oblique;
+    font-family: 'Style Script', cursive;
+}
+.block1: h2, h3, h4 {
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+ /* pseudo classes */
+ .block1:nth-child(1),
+ .block1:nth-child(2),
+ .block1:nth-child(3) {
+     margin-bottom: 60px;
+ }
+
+
+ /* Section two Our courses */
+ .conainer1 {
+     max-width: 1600px;
+     width: 100$;
+     margin: 0 auto;
+ }
+ .text-block {
+     width: 1500px;
+     height: 400px;
+     background-color: darkslateblue;
+     margin-bottom: 40px;
+     margin-left: 20px;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     font-size: 10px;
+     color: azure;
+     border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px darkslateblue;
+    transition: all 0.4s linear;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ /* ჰოვერი არ მუშაობს */
+ .text-block:hover {
+     color: whitesmoke;
+ }
+ .title-box h3 {
+    color: darkslateblue;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-right: 70px;
+
+ }
+
+ 
+ .text-block p {
+     font-size: 25px;
+     padding-top: 80px;
+     font-family: 'Roboto', sans-serif;
+     
+ }
+ 
+ .fa-graduation-cap {
+     margin-top: 60px;
+     margin-right: 150px;
+     font-size: 40px;
+ }
+ .fa-chalkboard-teacher {
+    margin-top: 60px;
+    margin-right: 150px;
+    font-size: 40px;
+ }
+
+ .fa-book-open {
+    margin-top: 60px;
+    margin-right: 150px;
+    font-size: 40px;
+ }
+ 
+ .fa-graduation-cap:hover {
+     color: aquamarine;
+ }
+
+.fa-book-open:hover {
+    color: aquamarine;
+}
+
+.fa-chalkboard-teach:hover {
+    color: aquamarine;
+}
+
+ /* Section 3 Social life */
+ .photo {
+     width: 220px;
+     height: 170px;
+     object-fit: cover;
+ }
+ .container2 {
+     max-width: 1179px;
+     width: 100%;
+     margin: 0 auto;
+     background-color: chartreuse;
+    
+ }
+
+.block-main {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.block2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.image-block p {
+    font-size: 15px;
+    color: darkslateblue;
+    margin-top: 50px;
+}
+.text-block h6 {
+    font-size: 20px;
+    font-style: inherit;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	max-width: 180px;
+	width: 100%;
+	height: 60px;
+	border-radius: 40px;
+	background-color:white;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+/* ჰოვერი არ მუშაობს */
+.button:hover {
+    color: darkslateblue;
+}
+
+.button-text {
+	margin-left: 60px;
+	font-size: 10px;
+	color: darkslateblue;
+    margin-bottom: 70px;
+}
+
+.button-text:hover {
+    color: white;
+}
+
+
+/* Form styles */
+.container3 {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.submit-form h5 {
+    color: azure;
+    padding-top: 10px;
+    padding-left: 250px;
+}
+.submit-form p {
+    color: azure;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.input-size {
+    max-width: 200px;
+    width: 100%;
+    height: 30px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.button-size {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+}
+.footer-nav {
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 15px;
+}
+.footer-ul {
+	display: flex;
+}
+.footer-li {
+	font-family: 'Montserrat';
+	color: #202126;
+	text-transform: uppercase;
+	margin-left: 15px;
+	font-size: 12px;
+}
+.follow2 {
+	margin-left: 450px;
+	margin-right: 71px;
+}
+
+.footer-black {
+	background-color: darkslateblue;
+	height: 68px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h4 {
+	font-size: 12px;
+	font-family: 'Montserrat';
+	color: azure;
+	max-width: 344px;
+	width: 80%;
+}
+.fa-facebook {
+    color: slateblue;
+    font-size: 20px;
+    transition: all 0.4s linear;
+}
+.fa-facebook:hover {
+    color: blue;
+}
+.fa-instagram {
+    color: slateblue;
+    font-size: 20px;
+    transition: all 0.4s linear;
+}
+.fa-instagram:hover {
+    color: red;
+}
+.fa-twitter-square {
+    color: slateblue;
+    font-size: 20px;
+    transition: all 0.4s linear;
+
+}
+.fa-twitter-square:hover {
+    color: blue;
+}
